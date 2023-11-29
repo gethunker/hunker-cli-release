@@ -3,7 +3,7 @@ A CLI For Hunker
 
 ```bash
 Installation
-pip install https://github.com/gethunker/hunker-cli/releases/download/v0.0.00/hunker-0.0.0-py3-none-any.whl
+pip install https://github.com/gethunker/hunker-cli-release/releases/download/v0.0.00/hunker-0.0.0-py3-none-any.whl
 ```
 
 ```bash
