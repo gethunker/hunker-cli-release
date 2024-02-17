@@ -38,7 +38,7 @@ hunker repo create \
 ```
 
 ```bash
-	hunker project create \
+hunker project create \
    	--org-code associated-org-code \
    	--project-code new-project-code \
    	--project-name new-project-name \
