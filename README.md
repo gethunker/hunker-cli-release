@@ -3,7 +3,7 @@ A CLI For Hunker
 
 ```bash
 Installation
-pip install https://github.com/gethunker/hunker-cli-release/releases/download/v0.0.00/hunker-0.0.0-py3-none-any.whl
+pip install https://github.com/gethunker/hunker-cli-release/releases/download/v0.10.0/hunker-0.10.0-py3-none-any.whl
 ```
 
 ```bash
@@ -17,7 +17,7 @@ Options
 
 Commands
  repo                         Hunker Repo CLI    
- upload                       Archive and upload a .git repository path to an existing repository.            
+ project                      Hunker Project CLI   
 ```
 
 Example:
@@ -25,7 +25,22 @@ Example:
 hunker repo upload \
     --path ./your/repo/ \
     --org-code your-org-code \
-    --project-code your-project-code \
     --repo-code your-repo-code \
-    --bucket-name repo-bucket-1234567890-us-east-1
+    --bucket-name bucket-name-here
+```
+
+```bash
+hunker repo create \
+   	--project-code associated-project-code \
+   	--repo-code new-repo-code \
+   	--repo-name new-repo-name \
+   	--endpoint endpoint-name-here
+```
+
+```bash
+	hunker project create \
+   	--org-code associated-org-code \
+   	--project-code new-project-code \
+   	--project-name new-project-name \
+   	--endpoint endpoint-name-here
 ```
